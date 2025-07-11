@@ -1,0 +1,65 @@
+body { 
+    font-family: Arial;
+}
+#heading {
+    text-align: center;
+}
+#input-bar {
+    height: 32px;
+    width: 401px;
+}
+#date-input {
+    height: 32px;
+    width: 401px;
+}
+#input {
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+}
+#button {
+    height: 38px;
+    width: 76px;
+    margin-left: 33px;
+    background-color: aquamarine;
+}
+#button:hover {
+    background-color: red;
+}
+#todo-item {
+    display: flex;
+    flex-direction: column;  /* Stack tasks vertically */
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+.todo-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+.todo-button, .date-button {
+    height: 32px;
+    width: 215px;
+    border: black solid 1px;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 14px;
+}
+.todo-button {
+    color: black;
+}
+.date-button {
+    color: black;
+}
+.delte{
+    background-color: red;
+    height: 32px;
+    width: 92px;
+    margin-left: 57px;
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+.delte:hover{
+    background-color: red;
+}
