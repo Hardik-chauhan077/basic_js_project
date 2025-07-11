@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bat-Bowl-Stump Game</title>
+    <link rel="stylesheet" href="cricket.css">
+</head>
+<body>
+    <h1>Bat-Bowl-Stump Game</h1>
+    <button id="b1" onclick="playgame('Bat')">
+        <img src="image/bat.png" alt="Bat"
+        class="choice-image">
+    </button>
+
+    <button id="b1" onclick="playgame('Bowl')">
+        <img src="image/ball.png" alt="ball"
+        class="choice-image">
+    </button>
+    <button id="b1" onclick="playgame('Stump')">
+        <img src="image/stump.png" alt="stump"
+        class="choice-image">
+    </button>
+    
+    <h2 id="result">Choose an option to play!</h2>
+    <button onclick="localStorage.clear()
+     resetscore()
+     ">Reset
+    </button>
+    <script src="cricket.js"></script>
+</body>
+</html>
