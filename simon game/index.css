@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    border: 10px solid black;
+    margin: 1rem;
+}
+.btn1{
+    background-color: blue;
+}
+.btn2{
+    background-color: yellow;
+}
+.btn3{
+    background-color: aqua;
+}
+.btn4{
+    background-color: red;
+}
+.flash{
+    background-color: white;
+}
